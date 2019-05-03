@@ -1,5 +1,6 @@
 # openshift-all-in-one-vm-azure
-OpenShift Container Platform all- in-one Install on Azure VM
+OpenShift Container Platform 3.11 all-in-one Install on Azure VM
+
 
 ## Prerequiment
 - use azure subscription 'pay-as-you-go'
