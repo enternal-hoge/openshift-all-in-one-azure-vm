@@ -77,8 +77,8 @@ Password: [yourCostmerPortalPassword]
 # systemctl enable docker
 # systemctl start docker
 # docker login https://registry.redhat.io
-Username: <yourCostmerPortalAccountName>
-Password: <yourCostmerPortalPassword>
+Username: [yourCostmerPortalAccountName]
+Password: [yourCostmerPortalPassword]
 # cd ~
 # oc cluster up --enable '*,automation-service-broker,service-catalog,template-service-broker' --public-hostname=[yourAzureDnsName] --routing-suffix=[yourAzureDnsName].nip.io  
 ```
