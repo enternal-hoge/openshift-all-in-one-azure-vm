@@ -38,11 +38,11 @@ Search Market Place 'Red Hat Linux 7.6'
 | VM Name  | openshift-vm | vm name decide any value. |
 | Location | japaneast | near the location |
 | VM Size | Standard D2s v3 | Recommendation 'D4s_v3' |
-| OS Username | <YourOsName> | any value |
-| SSH Public key | <YourPublicKey> | c |
+| OS Username | [YourOsName] | any value |
+| SSH Public key | [YourPublicKey] | c |
 | Listener Port | 80,443,22,8443 | allow accept port of nsg |
 | Disk | Standard HDD | Recommendation 'SSD' |
-| DNS Name | <AnyValue>.japaneast.cloudapp.azure.com | used as <yourAzureDnsName> |
+| DNS Name | [AnyValue].japaneast.cloudapp.azure.com | used as [yourAzureDnsName] |
 | Public IP | static | Determined automatically |
 
 ## Restart VM
@@ -79,15 +79,15 @@ Password: <yourCostmerPortalPassword>
 Username: <yourCostmerPortalAccountName>
 Password: <yourCostmerPortalPassword>
 # cd ~
-# oc cluster up --enable '*,automation-service-broker,service-catalog,template-service-broker' --public-hostname=<yourAzureDnsName> --routing-suffix=<yourAzureDnsName>.nip.io  
+# oc cluster up --enable '*,automation-service-broker,service-catalog,template-service-broker' --public-hostname=[yourAzureDnsName] --routing-suffix=[yourAzureDnsName].nip.io  
 ```
 
 ## OpenShift WEB UI
 
-https://<AnyValue>.japaneast.cloudapp.azure.com:8443/console
+https://[AnyValue].japaneast.cloudapp.azure.com:8443/console
 
 User:     developer
-Password: <any value>
+Password: [any value]
 
 or 
 
