@@ -39,7 +39,7 @@ Search Market Place 'Red Hat Linux 7.6'
 | Location | japaneast | near the location |
 | VM Size | Standard D2s v3 | Recommendation 'D4s_v3' |
 | OS Username | [YourOsName] | any value |
-| SSH Public key | [YourPublicKey] | c |
+| SSH Public key | [YourPublicKey] |  |
 | Listener Port | 80,443,22,8443 | allow accept port of nsg |
 | Disk | Standard HDD | Recommendation 'SSD' |
 | DNS Name | [AnyValue].japaneast.cloudapp.azure.com | used as [yourAzureDnsName] |
@@ -47,7 +47,7 @@ Search Market Place 'Red Hat Linux 7.6'
 
 ## Restart VM
 
-After chnaged vm dns name, stop and start target vm.
+After changed vm dns name, stop and start target vm.
 
 ## Install Open Shift Container Platform
 
