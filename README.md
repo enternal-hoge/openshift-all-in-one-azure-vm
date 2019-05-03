@@ -53,15 +53,15 @@ After changed vm dns name, stop and start target vm.
 ## Install Open Shift Container Platform
 
 ```
-$ ssh -i ~/.ssh/<AnyValue>_rsa <YourName>@<YourPublicIP>
+$ ssh -i ~/.ssh/[AnyValue]_rsa [YourName]@[YourPublicIP]
 $ sudo su -
 # rpm -e rhui-azure-rhel7
 # subscription-manager register
 Registering to: subscription.rhsm.redhat.com:443/subscription
-Username: <yourCostmerPortalAccountName>
-Password: <yourCostmerPortalPassword>
+Username: [yourCostmerPortalAccountName]
+Password: [yourCostmerPortalPassword]
 # subscription-manager list --available
-# subscription-manager attach --pool=<YOUR_SUBSCRIPTION_MASTER_POOL_ID>
+# subscription-manager attach --pool=[YOUR_SUBSCRIPTION_MASTER_POOL_ID]
 # subscription-manager repos --disable '*'
 # subscription-manager repos --enable 'rhel-7-server-rpms'
 # subscription-manager repos --enable 'rhel-7-server-extras-rpms'
