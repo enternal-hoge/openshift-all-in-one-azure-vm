@@ -33,7 +33,7 @@ Search Market Place 'Red Hat Linux 7.6'
 
 | field | value | |
 |:--|:--|:--|
-| Subscription | pay-as-you-go |  |
+| Subscription | pay-as-you-go | Even a free account may be ok |
 | Resource Group | openshift-all-in-one | resource group name decide any value. |
 | VM Name  | openshift-vm | vm name decide any value. |
 | Location | japaneast | near the location |
@@ -68,7 +68,7 @@ Password: <yourCostmerPortalPassword>
 # yum install atomic-openshift-clients docker git -y
 # firewall-cmd --add-port 80/tcp --permanent
 # firewall-cmd --add-port 8443/tcp --permanent
-# firewall-cmd --add-port 443/tcp --permanent # for attention.
+# firewall-cmd --add-port 443/tcp --permanent
 # firewall-cmd --reload
 # vi /etc/docker/daemon.json 
 # cat /etc/docker/daemon.json 
@@ -96,7 +96,7 @@ Password: admin
 
 ## Stop and Restart VM
 
-After vm stop and start, Start the cluster with the following command
+After vm stop and start, Start the cluster with the following command.
 
 ```
 # oc login -u system:admin
